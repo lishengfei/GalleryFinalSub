@@ -151,7 +151,8 @@ public class PhotoSelectActivity extends PhotoBaseActivity implements View.OnCli
             }
 
             refreshSelectCount();
-            requestGalleryPermission();
+            requestGalleryPermission();//请求权限获取全部图片 lsf2016-01-14 18:01:08
+            int a=10;
 
             mGvPhotoList.setOnScrollListener(GalleryFinal.getCoreConfig().getPauseOnScrollListener());
         }
