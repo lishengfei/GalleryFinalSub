@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * Desction:图片文件夹
  * Author:pengjianbo
- * Date:15/7/30 上午11:28
+ * Date:15/7/30 上午11:28 dsfas
  */
 public class PhotoFolderInfo implements Serializable {
     private int folderId;
